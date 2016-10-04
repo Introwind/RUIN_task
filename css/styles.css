@@ -149,6 +149,10 @@ li a:hover, #brand:hover {
 	font-size: 1.25rem;
 }
 
+.btn:hover {
+	transition: 1050ms
+}
+
 .col-md-2 h3, .col-md-4 h3 {
 	margin: 0;
 }
