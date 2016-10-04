@@ -55,6 +55,7 @@ html, body {
 
 #mainlogo:hover {
 	opacity: 1;
+	transition: 1050ms;
 }
 
 nav {
@@ -73,13 +74,14 @@ li a {
 	color: white;
 	font-size: 1.75rem;
 	opacity: 0.8;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', 'Josefin Sans', 'Poiret One', 'Dosis', 'Raleway', sans-serif;
 }
 
 li a:hover, #brand:hover {
 	text-decoration: none;
 	color: white;
 	opacity: 1;
+	transition: 1050ms;
 }
 
 .center {
