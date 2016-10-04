@@ -1,0 +1,218 @@
+/** { border: 1px solid red; }*/
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 200px; 
+}
+
+.site-footer {
+  background: #fff;
+}
+
+#links {
+	padding: 0 2px;
+}
+
+.landing {
+	padding: 0;
+	position: relative;
+}
+
+#brand {
+	color: white;
+	opacity: 0.8;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	letter-spacing: 1px;
+}
+
+#logo1 {
+	width: 10%;
+}
+
+#mainlogo {
+	position: absolute;
+	top: 30%;
+	width: 20%;
+	left: 40%;
+	opacity: 0.8;
+}
+
+#mainlogo:hover {
+	opacity: 1;
+}
+
+nav {
+	position: absolute;
+	top: 5%;
+	right: 3%;
+}
+
+.links li {
+	display: inline;
+	padding: 0 10px;
+	line-height: 5;
+}
+
+li a {
+	color: white;
+	font-size: 1.75rem;
+	opacity: 0.8;
+	font-family: 'Lato', sans-serif;
+}
+
+li a:hover, #brand:hover {
+	text-decoration: none;
+	color: white;
+	opacity: 1;
+}
+
+.center {
+	text-align: center;
+	padding-top: 30px; 
+}
+
+.center h1 {
+	font-size: 4em;
+	margin-bottom: 5px;
+}
+
+.center .col-sm-3 h1, .col-sm-6 h1 {
+	font-size: 6rem;
+	margin-bottom: 0;
+}
+
+#firstpage, #secondpage, #thirdpage {
+	padding-bottom: 125px;
+}
+
+#fourthpage {
+	border-bottom: 3px solid #fff;
+	margin-top: 100px;
+}
+
+.break {
+	padding-bottom: 25px;
+}
+
+#phone {
+	position: absolute;
+	bottom: 0;
+	width: 20%;
+	left: 40%;
+}
+
+.future {
+	position: absolute;
+	top: -50px;
+}
+
+#vesta {
+	width: 10%;
+}
+
+.towan {
+	width: 36%;
+	position: absolute;
+	top: 25%;
+	left: 31%;
+	color: white;
+	opacity: 0.8
+}
+
+.green, h1, h3, h4, h5 {
+	color: #96BE23;
+	font-family: 'Open Sans', 'Josefin Sans', 'Poiret One', 'Dosis', 'Raleway', sans-serif;
+}
+
+.btn, .btn-lg {
+	border-radius: 4px;
+	background-color: #96BE23;
+	border-color: #96BE23;
+	font-size: 1.25rem;
+}
+
+.col-md-2 h3, .col-md-4 h3 {
+	margin: 0;
+}
+
+@media screen and (max-width: 1500px) {
+	.future {
+		top: -150px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.future {
+		position: relative; 
+		margin-bottom: 30px;
+		margin-top: 50px;
+	}
+	#fourthpage {
+		background-image: url("../img/vesta-back@2x.jpg");
+		background-origin: border-box;
+		background-size: contain;
+		background-position: bottom;
+		background-repeat: no-repeat;
+	}
+	.towan {
+		width: 50%;
+		left: 25%;
+		top: 15%;
+	}
+	#brand {
+		top: 5%;
+		left: 2%;
+		width: 50%;
+		text-align: left;
+		margin-top: 0;
+	}
+	#logo1 {
+		display: none;
+	}
+	.links li {
+		display: block;
+		line-height: 2;
+		text-align: right;
+	}
+	#vesta {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.towan {
+		width: 80%;
+		left: 10%;
+		top: 5%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.links li {
+		line-height: 1.5;
+	}
+	#brand {
+		display: none;
+	}
+	#mainlogo {
+		display: inline-block;
+		top: 5%;
+		left: 5%;
+	}
+}
